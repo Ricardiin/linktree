@@ -28,7 +28,7 @@ html {
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
         'Lucida Sans', Arial, sans-serif;
-    background-image: url('/img/port.jpg');
+    background-image: url('https://github.com/Ricardiin/linktree/blob/main/port.jpg?raw=true');
     background-size: cover;
     background-attachment: fixed;
 }
