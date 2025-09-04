@@ -31,10 +31,8 @@ html {
 
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-image: url(/port.jpg);
-    /* fundo de tela */
-    background-size: cover;
-    /*fundo transparente*/
+    background-image: url(/port.jpg); /* fundo de tela */
+    background-size: cover; /*fundo transparente*/
     background-attachment: fixed;
 }
 
