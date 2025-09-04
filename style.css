@@ -60,7 +60,7 @@ header h2 {
 
 /* Conteúdo principal */
 main a {
-    background-color: var(--vermelho-alaranjado);
+    background-color: #E09292;
     width: 200px;
     height: 60px;
     margin-bottom: 15px;
