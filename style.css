@@ -7,12 +7,9 @@
 
 /* Variáveis globais */
 :root {
-    --cinza-claro: #e6e6e6;
+    --cinza-claro: rgba(230, 230, 230, 0.9); /* 90% opaco */
     --preto: #000000;
     --preto-escuro: #232222;
-    --preto-mais-claro: #1b0c0c;
-    --vermelho-alaranjado: #E09292;
-    --branco: #ffffff;
 }
 
 /* Layout */
