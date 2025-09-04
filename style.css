@@ -12,6 +12,7 @@
     --pretoUmPoucoMenosPreto: #232222;
     --pretoUmPoucoMaisClaro: #1b0c0c;
     --vermelhomeioalaranjado: #E09292;
+    --branco: #ffffff;
 }
 
 /* Layout */
@@ -30,8 +31,10 @@ html {
 
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: var(--CinzaClaro);
-
+    background-image: url(/port.jpg); /* fundo de tela */
+    background-size: cover; /*fundo transparente*/
+    background-repeat: auto;
+    background-attachment: fixed;
 }
 
 header {
@@ -46,16 +49,19 @@ header img {
     margin-top: 10px;
 }
 header h1{
-    color: #000000;
+    color: hsl(0, 0%, 0%);
     font-size: 1.25rem;
-    font-weight: 150;
-    margin: 10px 0px 10px 0px;
+    font-weight: 800;
+    margin: 30px 0px 10px 0px;
+    font-style: bold;
 }
 header h2{
-    color: slategray;
-    font-size: 1rem;
-    font-weight: 400;
-    margin: 30px 0px 100px 0px;
+    color: #000000;
+    font-size: 1.4rem;
+    font-weight: 100%;
+    margin: 10px 0px 60px 0px;
+    font-style: italic;
+    margin-top: 7%;
 }
 /* Conteudo Principal */
 
@@ -69,7 +75,7 @@ main a{
     color: #000000;
     text-align: center;
     padding-top: 20px;
-    border-radius: 30px;
+    border-radius: 50px;
     
 }
 footer {
