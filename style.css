@@ -1,88 +1,83 @@
 /* CSS RESET */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* Variaveis */
+/* Variáveis globais */
 :root {
-    --CinzaClaro: #e6e6e6e6;
-    --Preto: #000000;
-    --pretoUmPoucoMenosPreto: #232222;
-    --pretoUmPoucoMaisClaro: #1b0c0c;
-    --vermelhomeioalaranjado: #E09292;
-    --branco: #ffffff;
+  --cinza-claro: #e6e6e6;
+  --preto: #000000;
+  --preto-escuro: #232222;
+  --preto-mais-claro: #1b0c0c;
+  --vermelho-alaranjado: #E09292;
+  --branco: #ffffff;
 }
 
 /* Layout */
 .container,
 main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 html {
-    font-size: 16px;
-
+  font-size: 16px;
 }
 
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-image: url(/port.jpg); /* fundo de tela */
-    background-size: cover; /*fundo transparente*/
-    background-attachment: fixed;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+               'Lucida Sans', Arial, sans-serif;
+  background-image: url('/port.jpg');
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 header {
-    text-align: center;
-    /* Centraliza o texto dentro do header */
-
+  text-align: center;
 }
 
 header img {
-    width: 100px;
-    height: 100px;
-    border-radius: 99%;
-    margin-top: 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 10px;
 }
 
 header h1 {
-    color: hsl(0, 0%, 0%);
-    font-size: 1.25rem;
-    margin: 30px 0px 10px 0px;
+  color: var(--preto);
+  font-size: 1.25rem;
+  margin: 30px 0 10px 0;
 }
 
 header h2 {
-    color: #000000;
-    font-size: 1.4rem;
-    margin: 10px 0px 60px 0px;
-    font-style: italic;
-    margin-top: 7%;
+  color: var(--preto);
+  font-size: 1.4rem;
+  font-style: italic;
+  margin-top: 7%;
+  margin-bottom: 60px;
 }
 
-/* Conteudo Principal */
-
+/* Conteúdo principal */
 main a {
-    background-color: #E09292;
-    bottom: 10%;
-    width: 200px;
-    height: 60px;
-    margin-bottom: 15px;
-    text-decoration: none;
-    color: #000000;
-    text-align: center;
-    padding-top: 20px;
-    border-radius: 50px;
-
+  background-color: var(--vermelho-alaranjado);
+  width: 200px;
+  height: 60px;
+  margin-bottom: 15px;
+  text-decoration: none;
+  color: var(--preto);
+  text-align: center;
+  line-height: 60px;
+  border-radius: 50px;
 }
 
+/* Rodapé */
 footer {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 footer img {
-    margin: 0px 5px 0px 5px;
+  margin: 0 5px;
 }
