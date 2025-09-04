@@ -19,5 +19,4 @@ Um projeto minimalista que reproduz o estilo do Linktree usando apenas HTML e CS
 Criado por Richard Silva
 
 
-![]()<img width="449" height="889" alt="image" src="https://github.com/user-attachments/assets/9a648ba1-ed8f-4fab-82bb-f21e31aa6e09" />
-
+![]()<img width="469" height="946" alt="image" src="https://github.com/user-attachments/assets/0ac53489-c7de-4676-b80b-43ab27fd258c" />
