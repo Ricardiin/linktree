@@ -1,7 +1,7 @@
 import sys
 from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QPixmap , QIcon
-from PyQt5.QtWidgets import QApplication,QWidget,QHBoxLayout,QVBoxLayout,QLabel,QTableWidget,QTableWidgetItem,QLineEdit,QComboBox
+from PyQt5.QtWidgets import QApplication,QWidget,QHBoxLayout,QVBoxLayout,QLabel,QTableWidget,QTableWidgetItem,QLineEdit,QComboBox,QMessageBox
 
 
 class caixa2(QWidget):
@@ -53,9 +53,9 @@ class caixa2(QWidget):
         #total parte editado -
         self.subtotal_label = QLabel("Sub Total:")
         self.subtotal_label.setStyleSheet("QLabel")
-        self.subtotal_edit = QLineEdit("Tecle F2 para ")
+        self.subtotal_edit = QLineEdit(" ")
         self.subtotal_edit.setStyleSheet("QLineEdit{font-weight:bold; font-family:; font-size:15pt}")
-        self.subtotal_edit.setEnabled(True)
+        self.subtotal_edit.setEnabled(False)
         self.subtotal_edit.setStyleSheet("QlineEdit{padding:10px;font-size:15pt; width:400}")
 
         #fim
@@ -161,7 +161,11 @@ class caixa2(QWidget):
 
 
         if(e.key()==Qt.Key_F4):
-            print("Voce Apertou F4")
+            op = QMessageBox.question(self,"Pagamento","Deseja efetuar o pagamento?")
+            if op == QMessageBox.Yes:
+                print("Pagar")
+            else:
+                print("Não pagar")
 
 
 app = QApplication(sys.argv)
