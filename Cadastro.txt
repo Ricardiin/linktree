@@ -1,0 +1,5 @@
+Produto: ELDEN RING
+Tipo: PlayStation 5
+Descrição: ELDEN RING
+Preço: R$ 500,00
+-----------------------------------

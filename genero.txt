@@ -1,0 +1,8 @@
+nome: asdasda
+E-mail: asdasd@asdasdas.com
+Telefone: 11934743417
+CPF:  111.222.333-45
+Data de Nascimento: 16/10/2025
+Endereço: Tatuape
+Sexo: Masculino...
+-----------------------------------
